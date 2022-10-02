@@ -18,7 +18,7 @@ git log
 
 ## we need to configure our git account with this repo
 ## use github account user name and email address
-git config -l --list
+git config -l
 git config user.name <name>
 git config user.email <emailaddress>
 
@@ -58,6 +58,7 @@ git commit -a -m "my commit message"
 ## now we want to save this commit in the cloud
 ## ALWAYS pull before you push
 git pull
+git config --global pull.rebase false
 git push
 
 ## look at a specific commit
@@ -73,7 +74,7 @@ git commit <name>.txt -m "bad commit"
 ## revert commit to "HEAD" (current state of remote) - note we did not push!  once you push it is a lot harder to revert commits esp in shared repo.
 git reset HEAD
 # or
-git reset --hard
+git reset --hard HEAD
 
 ## Branch flow
 ## pull any changes
@@ -115,8 +116,8 @@ git clone https://github.com/<name>/gitworkshop.git
 ls
 cd gitworkshop/
 git config -l --list
-# git config user.name <name>
-# git config user.email <emailaddress>
+git config user.name <name>
+git config user.email <emailaddress>
 
 
 ### Make a change to someone else's file
