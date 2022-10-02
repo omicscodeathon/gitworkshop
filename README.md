@@ -1,7 +1,7 @@
 # gitworkshop
 A repository for GitHub class
 
-my changes
+[Slides](gitworkshop.pdf)
 
 ## Resources
 
