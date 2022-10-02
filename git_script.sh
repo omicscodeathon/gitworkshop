@@ -115,6 +115,8 @@ git clone https://github.com/<name>/gitworkshop.git
 ls
 cd gitworkshop/
 git config -l --list
+# git config user.name <name>
+# git config user.email <emailaddress>
 
 
 ### Make a change to someone else's file
