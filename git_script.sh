@@ -107,11 +107,13 @@ git branch -d <name>
 # we change to a separate directory just to make sure we don't
 # get confused between the shared omicscodeathon repo and our fork
 cd
-git clone https://github.com/pooranibcbb/viral-assembly-variant-calling.git
+mkdir myfork
+cd myfork
+git clone https://github.com/<name>/gitworkshop.git
 # or
-# git clone git@github.com:pooranibcbb/viral-assembly-variant-calling.git
+# git clone git@github.com:<name>/gitworkshop.git
 ls
-cd viral-assembly-variant-calling/
+cd gitworkshop/
 git config -l --list
 
 
