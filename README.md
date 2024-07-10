@@ -1,5 +1,5 @@
 # gitworkshop
-A repository for GitHub class
+A repository for GitHub class July 2024
 
 See releases -> for slides from March 26, 2023 workshop
 
