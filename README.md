@@ -1,5 +1,5 @@
 # gitworkshop
-A repository for GitHub class
+A repository for GitHub class or workshop
 
 [Slides](gitworkshop.pdf) - (probably broke my own rule of not putting image files in the repo!  But, not planning on changing them after this)
 
